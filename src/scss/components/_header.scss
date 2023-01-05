@@ -1,0 +1,111 @@
+@import "../variables";
+
+.header {
+  position: sticky;
+  top: -1px;
+  background-color: #fff;
+  padding: 40px 0;
+  border-bottom: 1px solid $gray-line;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 50;
+
+  @media (max-width: 650px) {
+    padding: 10px 0 15px;
+  }
+
+  .language-chooser {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    display: flex;
+
+    @media (max-width: 550px) {
+      left: 5px;
+    }
+
+    & li {
+      padding: 0 5px;
+      color: $orange;
+      cursor: pointer;
+      transition: $duration;
+    }
+    & li + li {
+      border-left: 1px solid $black;
+    }
+
+    .active {
+      position: relative;
+      color: $black;
+      cursor: default;
+      pointer-events: none;
+    }
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 650px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
+
+  &__logo {
+    display: flex;
+
+    @media (max-width: 380px) {
+      max-width: 200px;
+    }
+
+    svg {
+      margin-right: 15px;
+
+      @media (max-width: 380px) {
+        margin-right: 10px;
+      }
+    }
+
+    h1 {
+      color: #181818;
+      font-size: 24px;
+      letter-spacing: 1%;
+      text-transform: uppercase;
+      font-weight: 800;
+      text-transform: capitalize;
+
+      @media (max-width: 500px) {
+        font-size: 22px;
+      }
+      @media (max-width: 425px) {
+        font-size: 20px;
+      }
+    }
+
+    p {
+      color: #7b7b7b;
+
+      @media (max-width: 500px) {
+        font-size: 14px;
+      }
+      @media (max-width: 425px) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  &__cart {
+    @media (max-width: 650px) {
+      margin: 15px 0 0;
+    }
+    @media (max-width: 500px) {
+      margin: 10px 0 0;
+    }
+    @media (max-width: 350px) {
+      align-self: center;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+export const UA = {
+  "header - total-price": "{{totalPrice}} ₴",
+
+  "logo - title": "React Pizza",
+  "logo - description": "найсмачніша піца у Всесвіті",
+
+  "categories - all": "Усі",
+  "categories - meat": "М'ясні",
+  "categories - vegetarian": "Вегетаріанські",
+  "categories - grill": "Гриль",
+  "categories - spicy": "Гострі",
+  "categories - closed": "Закриті",
+
+  "sort-popup - sort-by": "Сортувати за:",
+  "sort-popup - popular": "Популярністю",
+  "sort-popup - price": "Ціною",
+  "sort-popup - alphabet": "Алфавітом (Eng)",
+
+  "modal-confirmation - yes": "Так",
+  "modal-confirmation - no": "Ні",
+  "modal-alert - ok": "Ок",
+
+  "pizza-items - no-data": "Дані не завантажено або вони відсутні",
+
+  "pizza-card - pepperoni-fresh": "Пепероні Фреш з перцем",
+  "pizza-card - cheese": "Сирна 🌱👶",
+  "pizza-card - barbecue-chicken": "Курча барбекю",
+  "pizza-card - sweet-sour-chicken": "Кисло-солодке курча",
+  "pizza-card - cheeseburger-pizza": "Чізбургер-піцца",
+  "pizza-card - crazy-pepperoni": "Крейзі пеппероні ",
+  "pizza-card - pepperoni": "Пеппероні",
+  "pizza-card - margarita": "Маргарита",
+  "pizza-card - four-seasons": "Чотири сезони",
+  "pizza-card - vegetables-mushrooms": "Овочі та гриби 🌱",
+  "pizza-card - thin": "тонка",
+  "pizza-card - traditional": "традиційна",
+  "pizza-card - size": "{{sizeName}} см.",
+  "pizza-card - thin-26": "тонка, 26 см. - {{count}}",
+  "pizza-card - thin-30": "тонка, 30 см. - {{count}}",
+  "pizza-card - thin-40": "тонка, 40 см. - {{count}}",
+  "pizza-card - traditional-26": "традиційна, 26 см. - {{count}}",
+  "pizza-card - traditional-30": "традиційна, 30 см. - {{count}}",
+  "pizza-card - traditional-40": "традиційна, 40 см. - {{count}}",
+  "pizza-card - price": "Ціна: {{price}} ₴",
+  "pizza-card - total-price": "{{totalPrice}} ₴",
+  "pizza-card - add": "Додати",
+
+  "not-found - title": "Помилка 404",
+  "not-found - description": "Сторінку '{{page}}' не знайдено.",
+
+  "home - all": "Усі піци",
+  "home - meat": "М'ясні піци",
+  "home - vegetarian": "Вегетаріанські піци",
+  "home - grill": "Гриль піци",
+  "home - spicy": "Гострі піци",
+  "home - closed": "Закриті піци",
+
+  "cart - title": "Корзина",
+  "cart - total-price": "Сума замовлення: <strong>{{totalPrice}} ₴</strong>",
+  "cart - total-count": "Усього піц: <strong>{{totalCount}} шт.</strong>",
+  "cart - clear-cart": "Очистити корзину",
+  "cart - clear-modal-title": "Очищення корзини",
+  "cart - clear-modal-text": "Ви дійсно хочете очистити корзину?",
+  "cart - order-modal-title": "Замовлення",
+  "cart - order-modal-text": "Ваше замовлення прийняте! 😋",
+  "cart - confirm": "Підтвердити",
+  "cart - decline": "Відмінити",
+  "cart - okay": "Добре",
+  "cart - go-back": "Повернутися назад",
+  "cart - buy": "Замовити",
+
+  "empty-cart - title": "Корзина порожня 😕",
+  "empty-cart - text": `
+    <p>Швидше за все, ви ще нічого не додали.</p>
+    <p>Для того, щоб замовити піцу, перейдіть на головну сторінку!</p>`,
+};
